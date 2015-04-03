@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BOCA BootStrap Test</title>
+	<!-- css links -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<!-- HEADER AREA-->
+	<div class = 'container headerContentArea'>
+			<div class="row">
+				<img src="images/bocaLogo.png" class='headLogo col-xs-12 col-sm-4'>
+				<img src="images/treeLineFlat02.png" class='treeLineFlat col-xs-12 col-sm-offset-1 col-sm-7'>
+			</div>
+	</div>
+	<!-- MENU AREA-->
+	 <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navbar-collapse'>
+     	<span class='sr-only'>Toggle navigation</span>
+     	<!--
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+       
+        <i class='glyphicon glyphicon-align-justify'></i>
+        <i class='glyphicon glyphicon-align-justify'></i>
+        <i class='glyphicon glyphicon-align-justify'></i>
+        -->
+        <img class="barMenuButton" src="images/barMenu.png" alt="barMenu">
+     </button>
+	<div class='bocaList container'>
+		<div class="row">
+			<ul class="nav navbar-nav collapse navbar-collapse">
+				<!-- collapse navbar-collapse for xs mode -->
+				<li class="linkTrial"><a href="">Products</a></li>
+				<li class="linkTrial"><a href="">Services</a></li>
+				<li class="linkTrial"><a href="">Culture</a></li>
+				<li class="linkTrial"><a href="">Order</a></li>
+				<li class="linkTrial"><a href="">Social Media</a></li>	
+			</ul>
+		</div>
+	</div>
+	<!-- CAROUSEL AREA-->
+	<div class="container hidden-xs">
+		<div class='row'>
+			<div id="myCarousel" class="carousel slide">
+				<!-- Bottom Page Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target = "#myCarousel" data-slide-to = "0"></li>
+					<li data-target = "#myCarousel" data-slide-to = "1" ></li>
+					<li data-target = "#myCarousel" data-slide-to = "2" class="active"></li>
+				</ol>
+				<!-- Content Divs-->
+				<div class="carousel-inner">
+					<div class="item">
+						<img src="images/Carouselimages1.jpg" alt="Trees" class="img-responsive">
+						<div class="carousel-caption">
+							<!--<h3>void header</h3>
+							<p>void subtext</p>-->
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/Carouselimages2.jpg" alt="Trees" class="img-responsive">
+						<div class="carousel-caption">
+							<!--<h3>void header</h3>
+							<p>void subtext</p>-->
+						</div>
+					</div>
+
+					<div class="item active">
+						<img src="images/Carouselimages3.jpg" alt="Trees" class="img-responsive">
+						<div class="carousel-caption">
+							<!--<h3>void header</h3>
+							<p>void subtext</p>-->
+						</div>
+					</div>	
+				</div>
+
+				<!-- Left and Right Screen Image Sliders -->
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+					<span class="icon-prev"></span>
+				</a>
+
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">
+					<span class="icon-next"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- XS IMAGE-->
+	<img class="col-xs-12 visible-xs xsImage" src="images/CarouselimageXS.jpg" alt="treeXS">	
+	<!-- SIZE TESTING READOUT AREA -->
+	<!--
+	<div class="container">
+		<div class='row' style="background-color:red;">
+			<div class='col-md-12 visible-xs'>
+				<h1>XS Mode</h1>
+			</div>
+			<div class='col-md-12 visible-sm'>
+				<h1>SM Mode</h1>
+			</div>
+			<div class='col-md-12 visible-md'>
+				<h1>MD Mode</h1>
+			</div>
+			<div class='col-md-12 visible-lg'>
+				<h1>LG Mode</h1>
+			</div>
+		</div>
+	</div> 
+	-->
+	<!-- CONTENT SQUARES AREA -->
+	<div class="container contentSquareArea">
+		<div class="row">
+			<div class='col-xs-12 col-sm-4 contentSquareImage'>
+				<a href="">
+					<img src="images/tabRecipe.png" alt="ieTab">
+				</a>
+				<p class="contentSquareSubtext">Find great and unconventional recipes for all of your favorite meatless products. Easy prep and serve.</p>
+			</div>
+			<div class='col-xs-12 col-sm-4 contentSquareImage'>
+				<a href="">
+					<img src="images/tabEvents.png" alt="ieTab">
+				</a>	
+					<p class="contentSquareSubtext">Keep in shape and meet people who are great. Boca sponsors a number of events. From BBQ to bike meets. Check in and check some of these places out.</p>
+			</div>
+			<div class='col-xs-12 col-sm-4 contentSquareImage'>
+				<a href="">
+					<img src="images/tabLifeStyle.png" alt="ieTab">
+				</a>
+				<p class="contentSquareSubtext">Eating great and staying in shape isn't just the only way to make a difference. You walk the walk but where else to walk to? Here are some other groups and communities we're partnered with to make a difference.</p>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- FOOTER AREA -->
+	<div class="footer">
+		<div class="container">
+			<!--<h1 style="color:white;">OBAMASCRIPT CAN BE FUN</h1>-->
+			<ul class="bocaCopyright">
+				<li>&copy;2015 Boca Foods Inc.</li>
+			</ul>
+			<ul class="linkLineup">
+				<li class="psLinks"><a href="">Contact Us</a></li>
+				<li class="psLinks"><a href="">Terms of Use</a></li>
+				<li class="psLinks"><a href="">Privacy</a></li>
+			</ul>
+		</div>	
+	</div>
+	<!-- script links -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
