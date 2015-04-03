@@ -1,8 +1,11 @@
-/*$(document).ready( function() {
+$(document).ready( function() {
 	console.log("javascript on");
 	alert('ObamaScript Active!');
 
-});*/
+	// Window Size Readout //
+	alert("The window size is" + $(window).width());
+
+});
 
 /* /// OLD WEBSITE FUNCTIONS /// {
 	//Mouse Appearance & Disappearance
