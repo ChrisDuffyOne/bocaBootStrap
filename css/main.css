@@ -233,7 +233,128 @@ table {
 }
 /* /// MD SCREEN SIZE /// */
 @media only screen and (min-width: 992px) {
+	body{
+		background-image: url('../images/rows3.jpg');
+		background-attachment: fixed;
+		background-position: center;
+		background-color: #B1E0E7;
+		background-size: 100%;
+	}
 	
+	/* HEADER AREA */
+	.headerContentArea{
+		margin-top: 0;
+		background-color: #EDF3D2;
+		padding-left: 1em;
+		padding-top: 1em;
+		padding-right: 1em;
+	}
+
+	.treeLineFlat{
+		margin-top: 1.5em;
+	}
+
+	/* MENU AREA */
+	.bocaList{
+		background-color: #4F612B;
+	}
+
+	.menuBigger{
+		background-color: white;
+	}
+	
+	.linkTrial{
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+
+	.linkTrial a{
+		color: white;
+		font-family: Montserrat;
+		font-weight: 400;
+		font-size: 3em;
+	}
+
+	.centeringRow{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.barMenuButton{
+		max-width: 100px;
+	}
+	/* XS IMAGE AREA */
+	.xsImage{
+		padding-left:0;
+		padding-right:0;
+	}
+
+	/* CONTENT SQUARE AREA */
+	.contentSquareArea{
+		background-color: #EDF3D2;
+	}
+
+	.contentSquareImage{
+		text-align: center;
+		margin-top: 4em;
+		margin-bottom: 8em;
+	}
+
+	.contentSquareImage a img{
+		min-width: 50%;
+	}
+
+	.contentSquareSubtext{
+		font-family: Montserrat;
+		font-weight: 400;
+		color: #4F612B;
+		font-size: 1.75em;
+		line-height: 1.4em;
+		padding-left: 1.75em;
+		padding-top: 1.5em;
+		padding-right: 1.75em;
+	}
+
+	/* FOOTER AREA */
+	.footer{
+		background-color: #4F612B;
+		padding-top: 1.5em; 
+		padding-bottom: 1.5em;
+	}
+
+	.bocaCopyright{
+		display: block;
+		font-family: Montserrat;
+		font-weight: 400;
+		font-size: 1.75em;
+		color: white;
+	}
+
+	.linkLineup{
+		/*float: left;*/
+		display: block;
+		margin-top: .5em;
+		font-size: 1.75em;
+	}
+
+	.linkLineup li{
+		display: inline;
+		font-family: Montserrat;
+		font-weight: 400;
+		font-size: .75em;
+		color: white;
+	}
+
+	.linkLineup li a{
+		color: white;
+	}
+
+	.psLinks + .psLinks{
+		border-left: 2px solid;
+		border-color: white;
+		margin-left: 1em;
+		padding-left: 1em;
+	}
 }
 /* /// LG SCREEN SIZE /// */
 @media only screen and (min-width: 1200px) {
